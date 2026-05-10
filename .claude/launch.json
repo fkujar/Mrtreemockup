@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "MrTreeRewards Static Site",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", ".", "--listen", "3000", "--no-clipboard"],
+      "port": 3000
+    },
+    {
+      "name": "MrTreeRewards Live Reload",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["live-server", ".", "--port=3001", "--no-browser"],
+      "port": 3001
+    }
+  ]
+}
